@@ -1,0 +1,28 @@
+
+.image-card-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.image-card {
+  width: 90vw;
+  max-width: 800px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  overflow: hidden;
+}
+
+.image-card img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.image-caption {
+  text-align: center;
+  padding: 8px;
+  font-size: 14px;
+  color: #555;
+}

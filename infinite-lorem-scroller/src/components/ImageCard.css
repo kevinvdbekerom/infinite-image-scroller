@@ -18,6 +18,7 @@
   width: 100%;
   height: auto;
   display: block;
+  transition: opacity 0.3s ease-in-out;
 }
 
 .image-caption {
